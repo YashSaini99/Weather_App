@@ -9,7 +9,7 @@ A simple and efficient command-line application that provides current weather in
 - ⚡ **Fast and Lightweight**: Minimal dependencies and quick responses.
 - 💻 **Cross-Platform**: Works on Windows, macOS, and Linux.
 
-## ScreenShot
+## Screenshot
 
 ![App Screenshot](https://github.com/YashSaini99/Weather_App/blob/main/Screenshot.png)
 

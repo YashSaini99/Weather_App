@@ -11,7 +11,7 @@ import (
 	"github.com/fatih/color"
 )
 
-type Wetaher struct {
+type Weather struct {
 	Location struct {
 		Name    string `json:"name"`
 		Country string `json:"country"`
@@ -58,7 +58,7 @@ func main() {
 		panic(err)
 	}
 
-	var weather Wetaher
+	var weather Weather
 	err = json.Unmarshal(body, &weather)
 	if err != nil {
 		panic(err)
